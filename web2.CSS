@@ -1,0 +1,79 @@
+body{
+    background-image: url(web2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    color: transparent;
+    border: 1px solid transparent;
+}
+.head input{
+    width: 100%;
+    border-radius: 50px;
+    height: 40px;
+}
+.body{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    color: greenyellow;
+}
+.ser{
+    text-align: center;
+    margin-top: -50px;
+}
+.ser input{
+    width: 400px;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+.links ul{
+    float: right;
+}
+.links ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid transparent;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.icons1{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.icons1 ul li{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.icons2{
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.icons2 ul li{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.links ul .img{
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
